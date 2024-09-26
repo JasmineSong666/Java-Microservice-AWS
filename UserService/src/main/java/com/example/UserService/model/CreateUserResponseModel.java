@@ -1,0 +1,17 @@
+package com.example.UserService.model;
+
+import jakarta.persistence.Column;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CreateUserResponseModel {
+    private int userId;
+    private String username;
+    private String email;
+    private String companyId;
+    private String companyName;
+}
